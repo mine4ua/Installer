@@ -2,9 +2,7 @@
 
 **#MineForUkraine** is a flashmob which goal is financial assistance to Ukraine. The idea behind it is a cloud mining of [Monero (XMR)](https://www.getmonero.org/) cryptocurrency involving as much participants as possible.
 
-Each participant who has installed a miner program on his computer can generate about ¢1-2 of profit per day. The miner connects to the [MoneroOcean](https://moneroocean.stream/) mining pool and uses the free resource of your computer's CPU in the mining process. All mined funds will be automatically transferred to the XMR wallet as appears on the official website of the [Ministry of Digital Transformation of Ukraine](Thank you for getting involved! 🙏
-Together we're strong! 💪
-) (the wallet address is included in the miner installation script).
+Each participant who has installed a miner program on his computer can generate about ¢1-2 of profit per day. The miner connects to the [MoneroOcean](https://moneroocean.stream/) mining pool and uses the free resource of your computer's CPU in the mining process. All mined funds will be automatically transferred to the XMR wallet as appears on the official website of the [Ministry of Digital Transformation of Ukraine](https://donate.thedigital.gov.ua/) (the wallet address is included in the miner installation script).
 
 Also, webmasters can add a [JavaScript miner](https://www.crypto-webminer.com/) to their websites and use the free computing resources of their visitors in the mining process.
 
