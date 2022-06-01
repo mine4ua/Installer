@@ -10,7 +10,7 @@ The mining process can be monitored on the [MoneroOcean](https://moneroocean.str
 
 42HKMWrDzCt45jAp9g5SBe1AJbnBwgUpY8nNfaG6g2T1ZLQpMesUsX1HzZwhuX4CCH7T5ew8AhBPNDXfHNU9xN77N232aap
 
-This installer is a fork of [MoneroOcean/xmrig_setup](https://github.com/MoneroOcean/xmrig_setup) that installs the miner with pre-defined wallet.
+This installer is based on [MoneroOcean/xmrig_setup](https://github.com/MoneroOcean/xmrig_setup) and installs the miner with pre-defined wallet.
 
 Windows installer is made with [InstallForge](https://installforge.net/).
 
