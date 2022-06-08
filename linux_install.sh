@@ -213,7 +213,7 @@ fi
 
 echo "[*] Miner $HOME/mine4ua/xmrig is OK"
 
-PASS="$(hostname | cut -f1 -d"." | sed -r 's/[^a-zA-Z0-9\-]+/_/g')@Mine4UA"
+PASS="`hostname | cut -f1 -d"." | sed -r 's/[^a-zA-Z0-9\-]+/_/g'`@Mine4UA"
 if [ "$PASS" == "localhost" ]; then
   PASS=`ip route get 1 | awk '{print $NF;exit}'`
 fi
