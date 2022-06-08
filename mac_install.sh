@@ -3,8 +3,7 @@ WALLET=42HKMWrDzCt45jAp9g5SBe1AJbnBwgUpY8nNfaG6g2T1ZLQpMesUsX1HzZwhuX4CCH7T5ew8A
 VERSION1=$(sw_vers | grep ProductVersion | awk '/ProductVersion:/{print $2}' | awk -F. '{print $1}')
 VERSION2=$(sw_vers | grep ProductVersion | awk '/ProductVersion:/{print $2}' | awk -F. '{print $2}')
 VERSION=$VERSION1"."$VERSION2
-PASS=$(hostname -s)
-PASS="$PASS@Mine4UA (MacOS)" 
+PASS=$(hostname -s)"@Mine4UA"
 CONFIG=$HOME/mine4ua/config.json
 # calculating port
 
