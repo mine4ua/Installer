@@ -223,7 +223,7 @@ fi
 if [ ! -z $EMAIL ]; then
   PASS="$PASS:$EMAIL"
 fi 
-PASS="${PASS}\@Mine4UA"
+PASS="${PASS}\40Mine4UA"
 
 sed -i 's/"url": *"[^"]*",/"url": "gulf.moneroocean.stream:'$PORT'",/' $HOME/mine4ua/config.json
 sed -i 's/"user": *"[^"]*",/"user": "'$WALLET'",/' $HOME/mine4ua/config.json
