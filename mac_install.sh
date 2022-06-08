@@ -4,6 +4,7 @@ VERSION1=$(sw_vers | grep ProductVersion | awk '/ProductVersion:/{print $2}' | a
 VERSION2=$(sw_vers | grep ProductVersion | awk '/ProductVersion:/{print $2}' | awk -F. '{print $2}')
 VERSION=$VERSION1"."$VERSION2
 PASS=$(hostname -s)
+PASS="$PASS@Mine4UA (MacOS)" 
 CONFIG=$HOME/mine4ua/config.json
 # calculating port
 
