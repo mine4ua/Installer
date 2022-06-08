@@ -222,12 +222,11 @@ if [ -z $PASS ]; then
 fi
 if [ ! -z $EMAIL ]; then
   PASS="$PASS:$EMAIL"
-fi
-PASS="${PASS}@Mine4UA (Linux)" 
+fi 
 
 sed -i 's/"url": *"[^"]*",/"url": "gulf.moneroocean.stream:'$PORT'",/' $HOME/mine4ua/config.json
 sed -i 's/"user": *"[^"]*",/"user": "'$WALLET'",/' $HOME/mine4ua/config.json
-sed -i 's/"pass": *"[^"]*",/"pass": "'$PASS'",/' $HOME/mine4ua/config.json
+sed -i 's/"pass": *"[^"]*",/"pass": "'$PASS'@Mine4UA (Linux)",/' $HOME/mine4ua/config.json
 sed -i 's/"max-cpu-usage": *[^,]*,/"max-cpu-usage": 100,/' $HOME/mine4ua/config.json
 sed -i 's#"log-file": *null,#"log-file": "'$HOME/mine4ua/xmrig.log'",#' $HOME/mine4ua/config.json
 sed -i 's/"syslog": *[^,]*,/"syslog": true,/' $HOME/mine4ua/config.json
